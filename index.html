@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradiation</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/css/all.css" />
+    <link rel="stylesheet" href="./assets/css/brands.css" />
+    <link rel="stylesheet" href="./assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="./assets/css/regular.css" />
+    <link rel="stylesheet" href="./assets/css/solid.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="brand">
+        <a href="#">Gradiation</a>
+      </div>
+      <div class="bars">
+        <button id="open"><i class="fas fa-bars"></i></button>
+        <button id="close"><i class="fas fa-times"></i></button>
+      </div>
+      <nav id="navbar" class="hidenav">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./comingsoon.html">Color Pallettes</a></li>
+          <li><a href="./comingsoon.html">Color Hexs</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="gradientcard">
+        <div class="showgradient"></div>
+      </div>
+      <div class="inputs">
+        <div class="input-group">
+          <div id="zerosc" class="showcolor"></div>
+          <div class="percentage">0%</div>
+          <div class="input-control">
+            <input type="text" id="zero" />
+          </div>
+        </div>
+        <div class="input-group">
+          <div id="fiftysc" class="showcolor"></div>
+          <div class="percentage">50%</div>
+          <div class="input-control">
+            <input type="text" id="fifty" />
+          </div>
+        </div>
+        <div class="input-group">
+          <div id="hundredsc" class="showcolor"></div>
+          <div class="percentage">100%</div>
+          <div class="input-control">
+            <input type="text" id="hundred" />
+          </div>
+        </div>
+      </div>
+      <div class="gradientcode">
+        <div class="inputcode">
+          <textarea type="text" id="code" disabled></textarea>
+        </div>
+        <div class="button">
+          <button id="copycode" class="copycode">
+            <i class="fas fa-copy"></i> Copy
+          </button>
+        </div>
+      </div>
+      <div class="create-gradient">
+        <div class="button">
+          <button id="createGrad">Create</button>
+        </div>
+        <div class="button">
+          <button id="randomize">Random</button>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/scripts.js"></script>
+    <script src="./assets/navbar.js"></script>
+  </body>
+</html>
